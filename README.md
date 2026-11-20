@@ -1,56 +1,67 @@
 # meal search api
 
-**Portfolio project** · A browser app for searching meals and displaying recipe data from a public API.
+A client-side meal search interface that retrieves and renders recipe data from an external API.
 
 ## Overview
 
-A browser app for searching meals and displaying recipe data from a public API.
+The repository contains an implemented application or analysis project with code organized around its primary runtime, interface, data, or automation responsibilities.
+
+## Key Features
+
+- Self-contained implementation
+- Browser or tool-based interaction
+- Reusable project structure
+- Clear input-to-output workflow
 
 ## Technology Stack
 
-- `HTML`
-- `CSS`
-- `JavaScript`
+| Area | Technology |
+|---|---|
+| Library / Framework / Tool | HTML |
+| Library / Framework / Tool | CSS |
+| Library / Framework / Tool | JavaScript |
 
-## How the Repository Works
+## Architecture and Data Flow
 
 ```mermaid
 flowchart LR
-    N0["Input<br/> Accept a target or search value"]
-    N1["Automation / Request<br/> Fetch or control the external resource"]
+    N0["Input<br/> The target, query, or automation action is accepted."]
+    N1["External Operation<br/> HTTP, DOM automation, or browser tooling executes the task."]
+    N2["Data Processing<br/> The returned or collected data is parsed."]
+    N3["Output<br/> Results are rendered, logged, or exported."]
     N0 --> N1
-    N2["Parse<br/> Extract relevant data"]
     N1 --> N2
-    N3["Output<br/> Render or export the result"]
     N2 --> N3
 ```
 
 | Stage | Responsibility |
 |---|---|
-| **Input** | Accept a target or search value |
-| **Automation / Request** | Fetch or control the external resource |
-| **Parse** | Extract relevant data |
-| **Output** | Render or export the result |
+| **Input** | The target, query, or automation action is accepted. |
+| **External Operation** | HTTP, DOM automation, or browser tooling executes the task. |
+| **Data Processing** | The returned or collected data is parsed. |
+| **Output** | Results are rendered, logged, or exported. |
 
-## Concepts Covered
-
-- Project structure
-- Core implementation
-- Practical debugging
-- Version control
-- Incremental experimentation
-
-## Repository Map
+## Repository Structure
 
 - `food.jpg`
 - `index.html`
 - `script.js`
 - `style.css`
 
-## Recruiter Summary
+## Setup
 
-This repository demonstrates practical implementation skills, repository organization, and an end-to-end understanding of the project workflow. It is suitable as a focused example of applied software or data work.
+1. Review the repository structure and applicable runtime requirement.
+2. Open the entry-point file in an editor or IDE.
+3. Run or open it using the tool required for the project language.
 
----
+## Usage
 
-<sub>Documentation is concise and project-focused; source code was not modified.</sub>
+Open the application entry point in the browser or run it with the project platform tools. Interact through the available controls and observe the rendered state.
+
+## Configuration
+
+No mandatory repository-specific configuration is documented by the project structure. Environment or runtime options may be defined inside the relevant entry-point file or platform settings.
+
+## Verification
+
+- Run the project entry point and verify the primary success and error paths.
